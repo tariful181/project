@@ -1,0 +1,15 @@
+livekit>=1.0.3
+livekit-agents==1.2.7
+livekit-plugins-openai==1.2.7
+livekit-plugins-deepgram==1.2.7
+livekit-plugins-silero==1.2.7
+python-dotenv~=1.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+numpy>=1.26.0
+gTTS>=2.3.0
+# googletrans removed due to httpcore compatibility; consider LLM-based translation
+banglaspeech2text
+openai>=1.0.0
+soundfile>=0.12.1
+supabase>=2.3.0
